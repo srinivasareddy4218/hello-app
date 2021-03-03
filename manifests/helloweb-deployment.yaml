@@ -3,16 +3,16 @@ kind: Deployment
 metadata:
   name: helloweb
   labels:
-    app: hello
+    app: helloweb
 spec:
   selector:
     matchLabels:
-      app: hello
+      app: helloweb
       tier: web
   template:
     metadata:
       labels:
-        app: hello
+        app: helloweb
         tier: web
     spec:
       containers:
