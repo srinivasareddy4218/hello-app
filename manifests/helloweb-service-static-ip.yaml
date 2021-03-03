@@ -3,10 +3,10 @@ kind: Service
 metadata:
   name: helloweb
   labels:
-    app: hello
+    app: helloweb
 spec:
   selector:
-    app: hello
+    app: helloweb
     tier: web
   ports:
   - port: 80
